@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+
+}

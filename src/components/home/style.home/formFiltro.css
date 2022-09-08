@@ -1,0 +1,119 @@
+.form_container_primary-form-input{
+    display: flex;
+    flex-direction: row;
+}
+.form__price{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.form_container{
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid rgb(182, 182, 182);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 75px;
+
+}
+.form_text{
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+    margin-right: 20px;
+
+}
+.form_input_price{
+    width: 160px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+.form_container_primary-form-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.form_container_primary-to-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.form_text-to{
+    font-size: 18px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+    margin-right: 40px;
+}
+.form_input_price-to{
+    width: 160px;
+    height: 30px;
+    outline: none;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+}
+.form_btn-price{
+    color: rgb(255, 255, 255);
+    background-color: #094d9f;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.form_btn-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.form__category{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.form_category_total{
+    font-size: 22px;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    color: rgb(97, 97, 97);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.fa-circle{
+    font-size: 10px;
+    color: #094d9f;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+.form_category_secction{
+    display: flex;
+    flex-direction: row;
+}

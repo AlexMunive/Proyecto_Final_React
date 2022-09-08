@@ -1,0 +1,15 @@
+.card-purchase__date{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c7c7c7;
+}
+.card-purchase{
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    width: 900px;
+    margin-bottom: 40px;
+}

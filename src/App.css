@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+}
+/* .footer__div{
+ 
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-end;
+  
+} */
+.footer_information{
+  margin: 0;
+}
+.footer{
+ 
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-end;
+  
+}
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}

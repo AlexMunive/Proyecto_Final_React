@@ -1,0 +1,153 @@
+.home{
+    margin-bottom: 40px;
+}
+.home__conteiner-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.home__input{
+    width: 735px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    box-shadow: 5px 10px 20px 0px rgba(218, 203, 203, 0.3);
+    border: 1px solid;
+    border-color: #c7c7c7;
+    border-radius: 0px;
+    background:  rgba(255, 255, 255, 0.3);
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+::placeholder{
+    color: rgb(179, 179, 179);
+    font-family: 'Yantramanav', sans-serif;
+}
+.home__btn{
+    font-size: 20px;
+    width: 100px;
+    height: 52px;
+    outline: none;
+    background-color: #094d9f;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top:2px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: filter 100ms ease, transform 200ms ease;
+    
+}
+.home__btn:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+    transition: filter 100ms ease, transform 200ms ease;
+  }
+.home__conteiner-product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.home_conteiner_filter_and_product{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*----------publicidad--------*/
+
+
+.slider-frame {
+	width: 50%;
+    height: auto;
+	margin:70px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*----------redes sociales--------*/
+
+.container-redes{
+    position: fixed;
+    bottom:5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-redes a{
+    margin-top: 4px;
+}
+
+.container-redes img{
+    width: 0px;
+    padding: 2px;
+    background: rgba(0,0,0,0.0);
+    cursor: pointer;
+    border-radius: 100%;
+    transition: all 300ms;
+    transition: filter 100ms ease, transform 200ms ease;
+}
+
+.container-redes a:hover img{
+    filter: brightness(1.1);
+    transform: scale(1.05);
+    transition: filter 100ms ease, transform 200ms ease;
+}
+.wsp{
+    min-width:  100px;
+}
+.facebook{
+    min-width:  70px;
+}
+.youtube{
+    min-width:  60px;
+    margin-top: 5px;
+}
+.instagram{
+    min-width: 58px;
+}
+.telegram{
+    min-width: 60px;
+}

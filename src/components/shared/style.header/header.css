@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 70px;
+    border: 1px solid #094d9f;;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    background: rgb(255, 255, 255);
+    /* background-color: #337ab7; */
+
+}
+
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__item {
+    width: 180px;
+    text-align: center;
+    height: 42px;
+    border-left: 1px solid #094d9f;;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+
+.header__logo {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin: 0;
+
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.fa-user {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+}
+.active-link{
+    background-color:#237ce9;
+    color: rgb(0, 0, 0);
+    padding-top: 28px;
+    padding-bottom: 24.5px;
+    padding-left: 71px;
+    padding-right: 70px;
+}
+
+.fa-shop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;    
+    border-radius: 50%;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+
+}
+
+.fa-cart-shopping {
+    width: 40px;
+    height: 40px;
+    line-height: 40px; 
+    border-radius: 50%;
+    font-size: 22px;
+    transition: .5s;
+    color: rgb(0, 0, 0);
+}
+
+ul li {
+    list-style: none;
+}
+
+.impacto_logo{
+    width: 250px;
+    max-height: 70px;
+    border-style: none;
+    vertical-align: middle;
+    max-width: 100%;
+    padding-top: 7px;
+    padding-left: 10px;
+}

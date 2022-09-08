@@ -1,0 +1,87 @@
+.cart{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: rgb(241, 241, 241);
+}
+.cart-product__info{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.cart__total-global-label{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cart__total-global-value{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.cart__btn{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.fa-dollar-sign{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.cart__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #094d9f;
+    border-radius: 10px;
+    height: 100px;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 49px;
+    background-color: white;
+    transition: box-shadow 200ms ease, transform 200ms ease;
+}
+.cart__footer:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 10px #0003;
+    transition: box-shadow 200ms ease, transform 200ms ease;
+  }
+.cart__footer_div_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.cart__title{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #094d9f;
+    margin-top: 30px;
+}
+.cart__btn{
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    border: #094d9f;
+    background-color: #094d9f;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
