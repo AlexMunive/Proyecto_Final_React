@@ -7,6 +7,14 @@ import FormFiltro from '../home/FormFiltro'
 
 const Home = () => {
 
+    const [inputSearch, setInputSearch] = useState('')
+    const [filterProducts, setFilterProducts] = useState()
+
+    const handleChange=(e)=>{
+        setInputSearch(e.target.value.trim())
+
+    }
+
     const dispatch = useDispatch()
 
     useEffect(() => {
@@ -16,8 +24,17 @@ const Home = () => {
 
     const products = useSelector(state => state.products)
 
+    useEffect(()=>{
+        if(inputSearch.length!==0){
+            const filter = products?.filter(e=>e.title.toLowerCase().includes(inputSearch.toLowerCase()))
+            setFilterProducts(filter)
 
-    // console.log(products)
+        }else{
+            setFilterProducts('')
+        }
+    },[inputSearch])
+
+
 
     return (
         <div className='home'>
@@ -54,11 +71,19 @@ const Home = () => {
                 </div>
                 <div>
                     <div>
-                        <input className='home__input' type="text" placeholder='What are you looking for?' />
+                        <input onChange={handleChange} className='home__input' type="text" placeholder='What are you looking for?' />
                         <button className='home__btn'><i className="fa-solid fa-magnifying-glass"></i></button>
                     </div>
                     <div className='home__conteiner-product'>
                         {
+                            filterProducts?
+                             filterProducts?.map(product => (
+                                <CardHome
+                                    key={product.id}
+                                    product={product}
+                                />
+                            ))
+                            :
                             products?.map(product => (
                                 <CardHome
                                     key={product.id}
