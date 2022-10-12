@@ -53,10 +53,10 @@ const FormFiltro = () => {
         <div className='form_container_secundary'>
             <div className='form_container_secundary-category'>
                 <h2 className='form__category'>Category</h2>
-                <div>All products</div>
+                <div className='category_name'>All products</div>
                 {
                   categories?.map(category=>(
-                    <div onClick={()=>handleClickCategory(category.id)} key={category.id}>{category.name}</div>
+                    <div className='category_name' onClick={()=>handleClickCategory(category.id)} key={category.id}>{category.name}</div>
                   ))  
                 }
             </div>
