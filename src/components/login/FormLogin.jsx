@@ -7,8 +7,9 @@ const FormLogin = ({setIsLooged}) => {
 
     const { register, handleSubmit, reset } = useForm()
 
+
     const submit = (data) => {
-        const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/users/login'
+        const url = 'https://e-commerce-api.academlo.tech/api/v1/users/login'
         axios.post(url, data)
             .then(res => {
                 console.log(res.data)

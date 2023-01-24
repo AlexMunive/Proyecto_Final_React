@@ -34,7 +34,7 @@ const ProductDescription = ({ productInfo }) => {
 
 
     useEffect(() => {
-        const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/products'
+        const url = 'https://e-commerce-api.academlo.tech/api/v1/products'
         axios.get(url)
             .then(res => setProducts(res.data.data.products))
             .catch(err => console.log(err))
@@ -45,7 +45,7 @@ const ProductDescription = ({ productInfo }) => {
     const filteredProducts = products?.filter(product => product.category.name == productInfo?.category)
 
     const handleAddCart=()=>{
-        const url='https://ecommerce-api-react.herokuapp.com/api/v1/cart'
+        const url='https://e-commerce-api.academlo.tech/api/v1/cart'
 
         const obj={
             id: productInfo.id,
