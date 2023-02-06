@@ -2,7 +2,7 @@ import React from 'react'
 import './style.header/header.css'
 import { NavLink } from 'react-router-dom'
 
-{/* <NavLink  className={({isActive}) =>isActive ? 'active-link': ''} to='/login'><i className="fa-regular fa-user"></i></NavLink> */}
+
 
 const Header = () => {
     return (

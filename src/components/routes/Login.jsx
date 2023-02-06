@@ -6,7 +6,7 @@ import './styles/login.css'
 const Login = () => {
 
   const [isLogged, setIsLooged] = useState()
-
+ 
   useEffect(() => {
     setIsLooged(localStorage.getItem('token'))
   }, [])

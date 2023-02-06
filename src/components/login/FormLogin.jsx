@@ -25,9 +25,6 @@ const FormLogin = ({setIsLooged}) => {
     }
     return (
         <div>
-            {/* <div>
-                <h2>Welcome to Impact Imports!</h2>
-            </div> */}
             <div>
                 <form onSubmit={handleSubmit(submit)} className='login__form'>
                     <h2 className='login__title'>Log in</h2>
@@ -35,6 +32,7 @@ const FormLogin = ({setIsLooged}) => {
                     <div>
                         <div className='login__div-email'>
                             <label className='login__label' htmlFor="email">Email*</label>
+                            <p className='usuario'>please use: michael@mail.com</p>
                             <input
                                 {...register('email')}
                                 className='login__input'
@@ -44,6 +42,7 @@ const FormLogin = ({setIsLooged}) => {
                     </div>
                     <div className='login__div-password'>
                         <label className='login__label' htmlFor="password">Password</label>
+                        <p className='usuario'>please use: pass1234</p>
                         <input
                             {...register('password')}
                             className='login__input'

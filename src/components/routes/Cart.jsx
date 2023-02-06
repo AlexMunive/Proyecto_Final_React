@@ -10,7 +10,7 @@ const Cart = () => {
     const [totalPrice, setTotalPrice] = useState()
 
     const getAllProductsCart = () => {
-        const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/cart'
+        const url = 'https://e-commerce-api.academlo.tech/api/v1/cart'
         axios.get(url, getConfig())
             .then(res => {
                 const product = res.data.data.cart.products
@@ -27,9 +27,9 @@ const Cart = () => {
         getAllProductsCart()
 
     }, [])
-    console.log(cartProducts)
+    // console.log(cartProducts)
     const handleChekout = () => {
-        const url = 'https://ecommerce-api-react.herokuapp.com/api/v1/purchases'
+        const url = 'https://e-commerce-api.academlo.tech/api/v1/purchases'
         const obj = {
             street: "Green St. 1456",
             colony: "Southwest",

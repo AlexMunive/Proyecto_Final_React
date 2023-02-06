@@ -2,7 +2,7 @@ import React from 'react'
 import './stye.form/formlogout.css'
 
 const FormLogout = ({ isLogged, setIsLooged }) => {
-
+  
 
     const handleClick = () => {
         setIsLooged()
@@ -29,5 +29,6 @@ const FormLogout = ({ isLogged, setIsLooged }) => {
         </div>
     )
 }
+
 
 export default FormLogout

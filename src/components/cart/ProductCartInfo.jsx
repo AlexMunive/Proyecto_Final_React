@@ -6,7 +6,7 @@ import './style.cart.info/productCartInfo.css'
 const ProductCartInfo = ({ product, getAllProductsCart }) => {
 
     const handleDeleteProduct = () => {
-        const url = `https://e-commerce-api.academlo.tech/${product.id}`
+        const url = `https://e-commerce-api.academlo.tech/api/v1/cart/${product.id}`
         axios.delete(url, getConfig())
             .then(res => getAllProductsCart(res.data))
             .catch(err => console.log(err))

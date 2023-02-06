@@ -10,7 +10,7 @@ const Purchases = () => {
   const [purchases, setPurchases] = useState()
 
   useEffect(()=>{
-      const url='https://ecommerce-api-react.herokuapp.com/api/v1/purchases'
+      const url='https://e-commerce-api.academlo.tech/api/v1/purchases'
       axios.get(url,getConfig())
       .then(res=>{
           setPurchases(res.data.data.purchases)
